@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0 ">
+		<link rel="stylesheet" type="text/css" href="files-5/main.css">
+		<link  rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="shortcut icon" href="files-5/57113_pfsed.u10Np.png" type="image/png">
+		<link rel="stylesheet" href="animate.css">
+		<title>Fashion - Landing Page</title>
+		
+		<script src="wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
+		
+	</head>
+	
+	<body class="w3-content"  style="max-width: 1200px;">
+	
+		<!-- sidebar -->
+				<div class="w3-sidebar w3-bar-block w3-hide-small wow fadeInLeft" style="width: 250px;">
+					<div class="w3-padding-16">
+						<h3 class="w3-bar-item w3-wide ">LOGO</h3>
+					</div>
+					
+					<div class="w3-padding-32 w3-text-grey " style="font-weight: bold">
+						<a href="" class="w3-bar-item w3-button w3-large w3-hover-text-black">Shirts</a>
+						<a href="" class="w3-bar-item w3-button w3-large w3-hover-text-black">Dresses</a>
+						
+						<a onclick="myAccFunc()" href="javascript:void(0)" class="w3-bar-item w3-button w3-large w3-text-black">Jeans <i class="fa fa-caret-down w3-text-black"> </i></a>
+							<div class="w3-ul w3-padding-large w3-hide w3-text-grey w3-padding-large roboto" style="font-size: 12px !important;" id="jeans">
+								<li class="w3-bar-item w3-light-grey  w3-text-black w3-button w3-medium "><i class="fa fa-caret-right w3-margin-right w3-text-black"></i>Skinny</li>
+								<li class="w3-bar-item w3-button w3-medium w3-hover-text-black">Relaxed</li>
+								<li class="w3-bar-item w3-button w3-medium w3-hover-text-black">Bootcut</li>
+								<li class="w3-bar-item w3-button w3-medium w3-hover-text-black">Straight</li>
+							</div>
+
+							
+						
+						<a href="" class="w3-bar-item w3-button w3-large w3-hover-text-black">Jackets</a>
+						<a href="" class="w3-bar-item w3-button w3-large w3-hover-text-black">Gymwear</a>
+						<a href="" class="w3-bar-item w3-button w3-large w3-hover-text-black">Blazers</a>
+						<a href="" class="w3-bar-item w3-button w3-large w3-hover-text-black">Shoes</a>
+					</div>
+					
+					<div class="w3-padding-32 mont w3-text-grey">
+					
+						<a href="#cont" class="w3-bar-item w3-button w3-large w3-hover-text-black">Contact</a>
+						<div class="">
+							<a onclick="document.getElementById('id02').style.display='block'" class="w3-bar-item w3-button w3-large w3-hover-text-black">Newsletter</a>
+							<div id="id02" class="w3-modal ">
+								<div class="w3-modal-content w3-animate-zoom">
+									<div class="w3-container w3-center mont w3-text-black " style="padding: 32px;">
+										<h2 class=" w3-wide"> NEWSLETTER<i onclick="document.getElementById('id02').style.display='none'" class="fa fa-close w3-transparent w3-right w3-button w3-text-black w3-xxlarge"></i></h2>
+										<p>Join our mailing list to receive updates on new arrivals and special offers.</p>
+										<input class="w3-input w3-border w3-text-grey w3-medium" placeholder="Enter E-mail">
+										<button class="w3-button w3-red w3-padding-large w3-margin-top w3-medium">Subscribe </button>
+										
+									</div>
+								</div>
+							</div>
+						</div>
+						<a href="#cont" class="w3-bar-item w3-button w3-large w3-hover-text-black">Subscribe</a>
+						
+					</div>
+				</div>
+
+				
+		<div class=" w3-container w3-hide-small" style="margin-left: 210px;">
+			
+				
+				
+				
+				<!-- content -->
+				<div class="w3-container w3-mobile" >
+					<div class="w3-padding-16 w3-bar w3-mobile wow fadeIn">
+						<h3 class="w3-bar-item mont" style="width: 100%">Jeans 
+						 <i class="fa fa-search w3-right w3-margin-left"></i><i class="fa fa-shopping-cart w3-right"></i>
+							 
+					</div>
+					
+					<!--header image -->
+					<div class="w3-hide-medium w3-show-large w3-hide-small">
+						<div class="w3-container w3-display-container">
+							<img src="files-5/jeans.jpg" class="w3-image wow fadeIn" style="width: 100%">
+							<div class="w3-display-topleft w3-text-white mont wow fadeIn" style="padding: 24px 48px;">
+								<h1 class="mont w3-jumbo" style="text-shadow:1px 1px 0 #444">New arrivals</h1>
+								<h3 class="w3-xxlarge mont" style="text-shadow:1px 1px 0 #444">COLLECTION 2018</h3>
+								<a href="#shop"><button class="w3-button w3-animate-zoom w3-card-4 w3-black mont w3-large w3-padding-large">SHOP NOW</button></a>
+							
+							</div>
+						</div>
+					</div>
+					
+					<!-- for tablet header-->
+					<div class="w3-show-medium w3-hide-large w3-hide-small">
+						<div class="w3-container w3-display-container">
+							<img src="files-5/jeans.jpg" class="w3-image" style="width: 100%">
+							<div class="w3-display-topleft w3-text-white mont" style="padding: 24px 48px;">
+								<h1 class="mont w3-xxlarge " style="text-shadow:1px 1px 0 #444">New arrivals</h1>
+								<h3 class="w3-xlarge mont" style="text-shadow:1px 1px 0 #444">COLLECTION 2018</h3>
+								<a href="#shop"><button class="w3-button w3-card-4 w3-black mont w3-large">SHOP NOW</button></a>
+							
+							</div>
+						</div>
+					</div>
+					
+					
+					
+					<!--1 stroka -->
+					<div class="w3-padding-16" id="shop">
+						<div class="w3-container">
+							<p class="w3-text-grey mont">8 items</p>
+						</div>
+						
+						<div class="w3-row w3-mobile mont wow fadeIn">
+							<div class="w3-col s6 m3 l3">
+								<div class="w3-container w3-display-container">
+									<div class="w3-display-container w3-hover-opacity">
+										<img src="files-5/jeans1.jpg" class="w3-image w3-grayscale" style="width: 100%">
+										<div class="w3-display-middle w3-display-hover w3-container"><span class="w3-button w3-black w3-card-4 w3-medium mont">Buy now</span></div>
+									</div>
+									<p class="w3-text-grey">
+										Ripped Skinny Jeans<br>
+										<b>$24.99</b>
+									</p>
+								</div>
+								
+							</div>
+							
+							<div class="w3-col s6 m3 l3">
+								<div class=" w3-container">
+									<div class="w3-display-container w3-hover-opacity">
+										<img src="files-5/jeans2.jpg" class="w3-image w3-grayscale" style="width: 100%">
+										
+										<div class="w3-display-topleft"><span class="w3-tag w3-black mont">New</span></div>
+										
+										<div class="w3-display-middle w3-display-hover w3-container"><span class="w3-button w3-black w3-medium mont">Buy now</span></div>
+									</div>
+									
+									<p class="w3-text-grey">
+										Ripped Skinny Jeans<br>
+										<b>$24.99</b>
+									</p>
+								</div>
+								
+							</div>
+							
+							<div class="w3-col s6 m3 l3">
+								<div class="w3-container">
+									<div class="w3-display-container w3-hover-opacity">
+										<img src="files-5/jeans3.jpg" class="w3-image w3-grayscale" style="width: 100%">
+										<div class="w3-display-middle w3-display-hover w3-container"><span class="w3-button w3-black w3-medium mont">Buy now</span></div>
+									</div>
+									<p class="w3-text-grey">
+										Ripped Skinny Jeans<br>
+										<b>$24.99</b>
+									</p>
+								</div>
+								
+							</div>
+							
+							<div class="w3-col s6 m3 l3 ">
+								<div class="w3-container">
+									<div class="w3-display-container w3-hover-opacity">	
+										<img src="files-5/jeans4.jpg" class="w3-image w3-grayscale" style="width: 100%">
+										<div class="w3-display-middle w3-display-hover w3-container"><span class="w3-button w3-black w3-medium mont">Buy now</span></div>
+									</div>
+									
+									<p class="w3-text-grey">
+										Ripped Skinny Jeans<br>
+										<b>$24.99</b>
+									</p>
+								</div>
+								
+							</div>
+						</div>
+					</div>	
+					
+						<!--2 stroka -->
+						<div class="w3-row w3-mobile mont wow fadeIn">
+								<div class="w3-col s6 m3 l3">
+									<div class="w3-container">
+										<div class="w3-display-container w3-hover-opacity">
+											<img src="files-5/jeans2.jpg" class="w3-image w3-grayscale" style="width: 100%">
+											<div class="w3-display-middle w3-display-hover w3-container"><span class="w3-button w3-black w3-medium mont">Buy now</span></div>
+										</div>
+										<p class="w3-text-grey">
+											Ripped Skinny Jeans<br>
+											<b>$24.99</b>
+										</p>
+									</div>
+									
+								</div>
+								
+								<div class="w3-col s6 m3 l3">
+									<div class="w3-container">
+										<div class="w3-display-container w3-hover-opacity">
+											<img src="files-5/jeans3.jpg" class="w3-image w3-grayscale" style="width: 100%">
+											<div class="w3-display-middle w3-display-hover w3-container"><span class="w3-button w3-black w3-medium mont">Buy now</span></div>
+										</div>
+										
+										<p class="w3-text-grey">
+											Ripped Skinny Jeans<br>
+											<b>$24.99</b>
+										</p>
+									</div>
+									
+								</div>
+								
+								<div class="w3-col s6 m3 l3">
+									<div class="w3-container">
+											<div class="w3-display-container">
+												<img src="files-5/jeans4.jpg" class="w3-image w3-grayscale" style="width: 100%">
+												<div class="w3-display-topleft"><span class="w3-tag w3-black mont">Sale</span></div>
+											</div>
+										<p class="w3-text-grey">
+											Ripped Skinny Jeans<br>
+											<b>$24.99</b>
+										</p>
+									</div>
+									
+								</div>
+								
+								<div class="w3-col s6 m3 l3 ">
+									<div class="w3-container">
+										<div class="w3-display-container w3-hover-opacity">
+											<img src="files-5/jeans1.jpg" class="w3-image w3-grayscale" style="width: 100%">
+											<div class="w3-display-middle w3-display-hover w3-container"><span class="w3-button w3-black w3-medium mont">Buy now</span></div>
+										</div>
+										
+										<p class="w3-text-grey">
+											Ripped Skinny Jeans<br>
+											<b>$24.99</b>
+										</p>
+									</div>
+									
+								</div>
+							</div>
+						
+							<!-- Contact -->
+							<div class="w3-container w3-mobile w3-black wow fadeInUp">
+								<div class="w3-padding-32 mont w3-mobile w3-text-white" id="cont">
+									<h1 class="mont">Subscribe</h1>
+									<p>To get special offers and VIP treatment:</p>
+									<input type="text" class="w3-input w3-medium" placeholder="Enter e-mail">
+									<button class="w3-button mont w3-margin-top w3-medium w3-red">Subscribe</button>
+								</div>
+							</div>
+							
+							<div class="w3-container w3-mobile w3-light-grey w3-padding-48 wow fadeInUp">
+								<div class="w3-padding-16 mont">
+									<div class="w3-col m4 l4 s4 w3-center ">
+										<h3>Contact</h3>
+										<p class="w3-text-grey">Questions? Go ahead.</p>
+										<input type="text" class="w3-input w3-margin-bottom w3-medium w3-border" placeholder="Name">
+										<input type="text" class="w3-input w3-margin-top w3-medium w3-border" placeholder="Email">
+										<input type="text" class="w3-input w3-margin-top w3-medium w3-border" placeholder="Subject">
+										<input type="text" class="w3-input w3-margin-top w3-medium w3-border" placeholder="Message">
+										<button class="w3-button mont w3-margin-top w3-margin-bottom w3-block w3-medium w3-black">Send</button>
+									</div>
+									<div class="w3-col w3-center m4 s4 l4">
+										<h3>About</h3>
+										<p><a href="" class="w3-text-grey w3-hover-text-green">About us</a></p>
+
+										<p><a href="" class="w3-text-grey w3-hover-text-green">We're hiring</a></p>
+
+										<p><a href="" class="w3-text-grey w3-hover-text-green">Support</a></p>
+
+										<p><a href="" class="w3-text-grey w3-hover-text-green">Find store</a></p>
+
+										<p><a href="" class="w3-text-grey w3-hover-text-green">Shipment</a></p>
+
+										<p><a href="" class="w3-text-grey w3-hover-text-green">Payment</a></p>
+
+										<p><a href="" class="w3-text-grey w3-hover-text-green">Gift card</a></p>
+
+										<p><a href="" class="w3-text-grey w3-hover-text-green">Return</a></p>
+
+										
+									</div>
+									<div class="w3-col w3-text-grey m4 s4 l4 roboto">
+										<h3 class="w3-text-black ">Store</h3>
+										<p><i class="fa fa-map-marker fa-fw w3-text-black " style="font-size: 14px;"></i> Company Name</p>
+										<p><i class="fa fa-phone fa-fw w3-text-black" style="font-size: 14px;"> </i> 0044123123</p>
+										<p><i class="fa fa-map-marker fa-fw w3-text-black" style="font-size: 14px;"> </i> ex@mail.com</p>
+										
+										<h3 class="w3-text-black">We accept
+</h3>
+										<p><i class="fa fa-cc-amex fa-fw w3-text-black" style="font-size: 14px;"> </i> Amex</p>
+										<p><i class="fa fa-cc-visa fa-fw w3-text-black" style="font-size: 14px;"> </i> Credit Card</p>
+										<p></p>
+									</div>
+								</div>
+							</div>
+							
+							<div class="w3-container w3-center wow fadeInUp w3-text-white w3-mobile w3-padding-16 w3-black">
+								<p>Powered by <a href="" class="w3-hover-text-green mont">Landinio</a></p>
+							</div>
+				</div>	
+					
+		</div>  
+		
+				<!--Sidebar for small -->
+				<div class="w3-show-small w3-hide-large w3-hide-medium">
+					<div class="w3-sidebar w3-top w3-bar-block" id="for-small-sidebar" style="width: 250px; display: none; z-index: 4;">
+						<i class="	fa fa-close w3-right w3-button w3-large" href="javascript:void(0)" onclick="w3_close()"></i>
+							<h3 class="w3-bar-item w3-xlarge w3-padding-16 w3-wide" style="padding-bottom: 60px !important;"><b>LOGO</b></h3>
+						
+						
+						<div class="w3-padding-32 w3-text-grey " style="font-weight: bold">
+							<a href="" class="w3-bar-item w3-button w3-large w3-hover-text-black">Shirts</a>
+							<a href="" class="w3-bar-item w3-button w3-large w3-hover-text-black">Dresses</a>
+							
+							<a onclick="myAccFuncc()" href="javascript:void(0)" class="w3-bar-item w3-button w3-large w3-text-black">Jeans <i class="fa fa-caret-down w3-text-black"> </i></a>
+								<div class="w3-ul w3-padding-large w3-hide w3-text-grey w3-padding-large roboto" style="font-size: 12px !important;" id="jeans-1">
+									<li class="w3-bar-item w3-light-grey  w3-text-black w3-button w3-medium "><i class="fa fa-caret-right w3-margin-right w3-text-black"></i>Skinny</li>
+									<li class="w3-bar-item w3-button w3-medium w3-hover-text-black">Relaxed</li>
+									<li class="w3-bar-item w3-button w3-medium w3-hover-text-black">Bootcut</li>
+									<li class="w3-bar-item w3-button w3-medium w3-hover-text-black">Straight</li>
+								</div>
+
+								
+							
+							<a href="" class="w3-bar-item w3-button w3-large w3-hover-text-black">Jackets</a>
+							<a href="" class="w3-bar-item w3-button w3-large w3-hover-text-black">Gymwear</a>
+							<a href="" class="w3-bar-item w3-button w3-large w3-hover-text-black">Blazers</a>
+							<a href="" class="w3-bar-item w3-button w3-large w3-hover-text-black">Shoes</a>
+						</div>
+						
+						<div class="w3-padding-32 mont w3-text-grey">
+						
+							<a href="#cont" class="w3-bar-item w3-button w3-large w3-hover-text-black">Contact</a>
+							<div class="">
+								<a onclick="document.getElementById('id02').style.display='block'" class="w3-bar-item w3-button w3-large w3-hover-text-black">Newsletter</a>
+								<div id="id02" class="w3-modal">
+									<div class="w3-modal-content">
+										<div class="w3-container w3-center mont w3-text-black " style="padding: 32px;">
+											<h2 class=" w3-wide"> NEWSLETTER<i onclick="document.getElementById('id02').style.display='none'" class="fa fa-close w3-transparent w3-right w3-button w3-text-black w3-xxlarge"></i></h2>
+											<p>Join our mailing list to receive updates on new arrivals and special offers.</p>
+											<input class="w3-input w3-border w3-text-grey w3-medium" placeholder="Enter E-mail">
+											<button class="w3-button w3-red w3-padding-large w3-margin-top w3-medium">Subscribe </button>
+											
+										</div>
+									</div>
+								</div>
+							</div>
+							<a href="#cont" class="w3-bar-item w3-button w3-large w3-hover-text-black">Subscribe</a>
+							
+						</div>
+					</div>
+				</div>	
+		<!-- content for small -->
+		
+		<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+		<div class="w3-hide-large w3-hide-medium w3-show-small">
+			<div class="w3-bar w3-large w3-top w3-black">
+				
+				<div class="w3-bar-item mont w3-xlarge w3-padding-16 w3-wide">LOGO</div>
+				<i href="javascript:void(0)" onclick="w3_open()" class="fa fa-bars w3-padding-24 w3-button w3-xlarge w3-right" style=""></i>
+				
+			</div>	
+				<div class="w3-mobile" >
+					<div class="w3-bar w3-mobile" style="margin-top: 90px;">
+						<h3 class="w3-bar-item mont" style="width: 100%">Jeans 
+						 <i class="fa fa-search w3-right w3-margin-left"></i><i class="fa fa-shopping-cart w3-right"></i>
+							 
+					</div>
+					
+
+					
+					<!-- for small header-->
+					<div class="w3-hide-medium w3-hide-large w3-show-small">
+						<div class="w3-mobile w3-display-container">
+							<img src="files-5/jeans.jpg" class="w3-image w3-mobile" style="width: 100%">
+							<div class="w3-display-topleft w3-text-white mont" style="padding: 24px 48px;">
+								<h1 class="mont w3-xlarge " style="text-shadow:1px 1px 0 #444">New arrivals</h1>
+								<h3 class="w3-large mont" style="text-shadow:1px 1px 0 #444">COLLECTION 2018</h3>
+								<a href="#shop"><button class="w3-button w3-card-4 w3-black mont w3-medium">SHOP NOW</button></a>
+							
+							</div>
+						</div>
+					</div>
+					
+					<!--1 stroka -->
+					<div class="w3-padding-16" id="shop">
+						<div class="w3-container">
+							<p class="w3-text-grey mont">8 items</p>
+						</div>
+						
+						<div class="w3-row w3-mobile mont">
+							<div class="w3-col s6 m3 l3">
+								<div class="w3-container w3-display-container">
+									<div class="w3-display-container w3-hover-opacity">
+										<img src="files-5/jeans1.jpg" class="w3-image w3-grayscale" style="width: 100%">
+										<div class="w3-display-middle w3-display-hover w3-container"><span class="w3-button w3-black w3-card-4 w3-medium mont">Buy now</span></div>
+									</div>
+									<p class="w3-text-grey">
+										Ripped Skinny Jeans<br>
+										<b>$24.99</b>
+									</p>
+								</div>
+								
+							</div>
+							
+							<div class="w3-col s6 m3 l3">
+								<div class=" w3-container">
+									<div class="w3-display-container w3-hover-opacity">
+										<img src="files-5/jeans2.jpg" class="w3-image w3-grayscale" style="width: 100%">
+										
+										<div class="w3-display-topleft"><span class="w3-tag w3-black mont">New</span></div>
+										
+										<div class="w3-display-middle w3-display-hover w3-container"><span class="w3-button w3-black w3-medium mont">Buy now</span></div>
+									</div>
+									
+									<p class="w3-text-grey">
+										Ripped Skinny Jeans<br>
+										<b>$24.99</b>
+									</p>
+								</div>
+								
+							</div>
+							
+							<div class="w3-col s6 m3 l3">
+								<div class="w3-container">
+									<div class="w3-display-container w3-hover-opacity">
+										<img src="files-5/jeans3.jpg" class="w3-image w3-grayscale" style="width: 100%">
+										<div class="w3-display-middle w3-display-hover w3-container"><span class="w3-button w3-black w3-medium mont">Buy now</span></div>
+									</div>
+									<p class="w3-text-grey">
+										Ripped Skinny Jeans<br>
+										<b>$24.99</b>
+									</p>
+								</div>
+								
+							</div>
+							
+							<div class="w3-col s6 m3 l3 ">
+								<div class="w3-container">
+									<div class="w3-display-container w3-hover-opacity">	
+										<img src="files-5/jeans4.jpg" class="w3-image w3-grayscale" style="width: 100%">
+										<div class="w3-display-middle w3-display-hover w3-container"><span class="w3-button w3-black w3-medium mont">Buy now</span></div>
+									</div>
+									
+									<p class="w3-text-grey">
+										Ripped Skinny Jeans<br>
+										<b>$24.99</b>
+									</p>
+								</div>
+								
+							</div>
+						</div>
+					</div>	
+					
+						<!--2 stroka -->
+						<div class="w3-row w3-mobile mont">
+								<div class="w3-col s6 m3 l3">
+									<div class="w3-container">
+										<div class="w3-display-container w3-hover-opacity">
+											<img src="files-5/jeans2.jpg" class="w3-image w3-grayscale" style="width: 100%">
+											<div class="w3-display-middle w3-display-hover w3-container"><span class="w3-button w3-black w3-medium mont">Buy now</span></div>
+										</div>
+										<p class="w3-text-grey">
+											Ripped Skinny Jeans<br>
+											<b>$24.99</b>
+										</p>
+									</div>
+									
+								</div>
+								
+								<div class="w3-col s6 m3 l3">
+									<div class="w3-container">
+										<div class="w3-display-container w3-hover-opacity">
+											<img src="files-5/jeans3.jpg" class="w3-image w3-grayscale" style="width: 100%">
+											<div class="w3-display-middle w3-display-hover w3-container"><span class="w3-button w3-black w3-medium mont">Buy now</span></div>
+										</div>
+										
+										<p class="w3-text-grey">
+											Ripped Skinny Jeans<br>
+											<b>$24.99</b>
+										</p>
+									</div>
+									
+								</div>
+								
+								<div class="w3-col s6 m3 l3">
+									<div class="w3-container">
+											<div class="w3-display-container">
+												<img src="files-5/jeans4.jpg" class="w3-image w3-grayscale" style="width: 100%">
+												<div class="w3-display-topleft"><span class="w3-tag w3-black mont">Sale</span></div>
+											</div>
+										<p class="w3-text-grey">
+											Ripped Skinny Jeans<br>
+											<b>$24.99</b>
+										</p>
+									</div>
+									
+								</div>
+								
+								<div class="w3-col s6 m3 l3 ">
+									<div class="w3-container">
+										<div class="w3-display-container w3-hover-opacity">
+											<img src="files-5/jeans1.jpg" class="w3-image w3-grayscale" style="width: 100%">
+											<div class="w3-display-middle w3-display-hover w3-container"><span class="w3-button w3-black w3-medium mont">Buy now</span></div>
+										</div>
+										
+										<p class="w3-text-grey">
+											Ripped Skinny Jeans<br>
+											<b>$24.99</b>
+										</p>
+									</div>
+									
+								</div>
+							</div>
+						
+							<!-- Contact -->
+							<div class="w3-container w3-mobile w3-black">
+								<div class="w3-padding-32 mont w3-mobile w3-text-white" id="cont">
+									<h1 class="mont">Subscribe</h1>
+									<p>To get special offers and VIP treatment:</p>
+									<input type="text" class="w3-input w3-medium" placeholder="Enter e-mail">
+									<button class="w3-button mont w3-margin-top w3-medium w3-red">Subscribe</button>
+								</div>
+							</div>
+							
+							<div class="w3-container w3-mobile w3-light-grey w3-padding-48">
+								<div class="w3-padding-16 mont">
+									<div class="w3-col m4 l4 s12 w3-center">
+										<h3>Contact</h3>
+										<p class="w3-text-grey">Questions? Go ahead.</p>
+										<input type="text" class="w3-input w3-margin-bottom w3-medium w3-border" placeholder="Name">
+										<input type="text" class="w3-input w3-margin-top w3-medium w3-border" placeholder="Email">
+										<input type="text" class="w3-input w3-margin-top w3-medium w3-border" placeholder="Subject">
+										<input type="text" class="w3-input w3-margin-top w3-medium w3-border" placeholder="Message">
+										<button class="w3-button mont w3-margin-top w3-margin-bottom w3-block w3-medium w3-black">Send</button>
+									</div>
+									<div class="w3-col w3-center m4 s6 l4">
+										<h3>About</h3>
+										<p><a href="" class="w3-text-grey w3-hover-text-green">About us</a></p>
+
+										<p><a href="" class="w3-text-grey w3-hover-text-green">We're hiring</a></p>
+
+										<p><a href="" class="w3-text-grey w3-hover-text-green">Support</a></p>
+
+										<p><a href="" class="w3-text-grey w3-hover-text-green">Find store</a></p>
+
+										<p><a href="" class="w3-text-grey w3-hover-text-green">Shipment</a></p>
+
+										<p><a href="" class="w3-text-grey w3-hover-text-green">Payment</a></p>
+
+										<p><a href="" class="w3-text-grey w3-hover-text-green">Gift card</a></p>
+
+										<p><a href="" class="w3-text-grey w3-hover-text-green">Return</a></p>
+
+										
+									</div>
+									<div class="w3-col w3-center w3-text-grey m4 s6 l4 roboto">
+										<h3 class="w3-text-black ">Store</h3>
+										<p><i class="fa fa-map-marker fa-fw w3-text-black " style="font-size: 14px;"></i> Company Name</p>
+										<p><i class="fa fa-phone fa-fw w3-text-black" style="font-size: 14px;"> </i> 0044123123</p>
+										<p><i class="fa fa-map-marker fa-fw w3-text-black" style="font-size: 14px;"> </i> ex@mail.com</p>
+										
+										<h3 class="w3-text-black">We accept
+</h3>
+										<p><i class="fa fa-cc-amex fa-fw w3-text-black" style="font-size: 14px;"> </i> Amex</p>
+										<p><i class="fa fa-cc-visa fa-fw w3-text-black" style="font-size: 14px;"> </i> Credit Card</p>
+										<p></p>
+									</div>
+								</div>
+							</div>
+							
+							<div class="w3-container w3-center w3-text-white w3-mobile w3-padding-16 w3-black">
+								<p>Powered by <a href="" class="w3-hover-text-green mont">Landinio</a></p>
+							</div>
+						</div>	
+					
+					</div>
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script>
+		function myAccFunc() {
+					var x = document.getElementById("jeans");
+					if (x.className.indexOf("w3-show") == -1) {
+						x.className += " w3-show";
+					} else {
+						x.className = x.className.replace(" w3-show", "");
+					}
+				}
+		function myAccFuncc() {
+					var x = document.getElementById("jeans-1");
+					if (x.className.indexOf("w3-show") == -1) {
+						x.className += " w3-show";
+					} else {
+						x.className = x.className.replace(" w3-show", "");
+					}
+				}		
+		function w3_open() {
+			document.getElementById("for-small-sidebar").style.display = "block";
+			document.getElementById("myOverlay").style.display = "block";
+			}
+		function w3_close() {
+			document.getElementById("for-small-sidebar").style.display = "none";
+			 document.getElementById("myOverlay").style.display = "none";
+			}
+		</script>
+	</body>
+</html>

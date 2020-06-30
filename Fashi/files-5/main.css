@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+a{
+	text-decoration: none;
+	font-family: "Roboto", sans-serif;
+	
+}
+body, h1, h2, h3, h4{
+	font-family: "Montserrat", sans-serif;
+	
+	
+	
+}
+
+.w3-wide{
+	
+	font-family: "Montserrat", sans-serif;
+	
+	
+}
+.roboto{
+	font-family: "Roboto", sans-serif;
+
+	
+	
+}
+.mont{
+	font-family: "Montserrat", sans-serif;
+	
+	
+}

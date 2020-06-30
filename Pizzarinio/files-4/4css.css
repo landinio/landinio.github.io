@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+@import url('https://fonts.googleapis.com/css?family=Oswald:300');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300i');
+div{
+	font-family: 'Amatic SC', cursive;
+	
+	
+	
+}
+.w3-hover-text-red:hover{
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+.oswald{
+	
+	font-family: 'Oswald', sans-serif;
+}
+.open{
+	
+	font-family: 'Open Sans Condensed', sans-serif;
+	
+}
+.amatic{
+	font-family: 'Amatic SC', cursive;
+}
+.hh h1{
+	
+	font-family: 'Amatic SC', cursive;
+	
+}
+.w3-container h1{
+	
+	font-family: 'Amatic SC', cursive;
+	
+	
+}
+.w3-blue-grey h1{
+	
+	font-family: 'Amatic SC', cursive;
+	
+	
+}
+.w3-blue-grey h2{
+	
+	font-family: 'Amatic SC', cursive;
+	
+	
+}
+footer  h2{
+	
+	font-family: 'Amatic SC', cursive;
+	
+	
+}
+.co  h1{
+	
+	font-family: 'Amatic SC', cursive;
+	
+	
+}
+a{
+ text-decoration: none;
+	
+}
+.bar-btn{
+	padding: 8px 4px 8px 4px;
+	display: inline-block;
+	font-size: 45px;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+.w3-button{
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+	
+	
+}
+.hover-btn{
+	background-color: black;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: #f34900;
+    text-align: center;
+    cursor: pointer;
+	white-space: nowrap;
+}
+.hover-btn:hover{
+	background-color: #7fcf01;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+	
+}
+.bg-2{
+	background: url("background-1.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
+	max-height: 1400px;
+	max-width: 1920px;
+
+}
+.ekran-1{
+	background-image: url("gl-img-1.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
+	max-height: 921px;
+	max-width: 1920px;
+	
+}
+.bg-2-1{
+	background-image: url("onas-img-1.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 500px;
+	
+	
+}
+.menu-back{
+	background: url("background-1.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
+	max-height: 1400px;
+	max-width: 1920px;
+	
+}
+.bg-4{
+	background-image: url("background-1-1.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 800px;
+	
+}
+#pizza{
+	background-image: url("menu.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 862px;
+}
+#Starter{
+	background-image: url("menu.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 862px;
+}
+#Pasta{
+	background-image: url("menu.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 862px;
+}
+div h1, p{
+	margin: 8px 0px;
+	
+}
+div hr{
+	margin: 8px 0px;
+}
+.preloader{
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: black;
+	z-index: 2;
+	transition: 1s all;
+	opacity: 1;
+	visibility: visible;
+	
+	
+	
+	
+}
+.loader{
+	
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	animation: 2s spin infinite linear;
+	
+}
+.done{
+	
+	opacity: 0;
+	visibility: hidden;
+	
+}
+
+@keyframes spin{
+	from{
+		transform: translate(-50%, -50%) rotate(0deg);
+		
+		
+	}
+	to{
+		transform: translate(-50%, -50%) rotate(360deg);
+		
+	}
+	
+}
