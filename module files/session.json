@@ -1,0 +1,14 @@
+/* This version API v.2.4 */
+var api_session_token = 'bd665503e499ff598cb9c5d4d7362c38_4b63e70';
+var api_type = 'free';
+var api_modules = {"tours":"free","hot":"free","order":"full"};
+var api_settings = {"osDeptCity":1880,"osLang":"ru","osInstallments":false,"osTourTargetBlank":false};
+var access_token = '2e831-63940-e9a84-98210-5a3f4';
+var watermark = '';
+var gmapkey = '';
+
+
+/* !!!!!!! DEPRECATED variables ↓ */
+var apiKey = api_session_token;
+var apiType = api_type;
+var osApiId = access_token;
