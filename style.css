@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400i|Oswald');
+body{
+	
+	background: black;
+	
+}
+.ekran-1{
+	background: url("images/1-ek.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 947px;
+	max-width: 1920px;
+	
+	
+}
+.ekran-2{
+	background: url("images/2-ek.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
+	max-width: 1920px;
+	
+	
+}
+.ekran-3{
+	background: url("images/2-ek.jpg");
+	background-position: top;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
+	max-width: 1920px;
+	
+	
+}
+.open{
+	font-family: 'Open Sans', sans-serif;
+
+}
+a{
+ text-decoration: none;
+	
+}
+
+.oswald{
+	
+	font-family: 'Oswald', sans-serif;
+}
+.padd-top{
+	margin-top: 10px;
+	
+	
+}
+.w3-hover-text-red:hover{
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+.w3-hover-yellow:hover{
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
